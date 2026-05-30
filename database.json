@@ -1,0 +1,857 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "ibrahim",
+      "price": 99.99,
+      "image": "/images/makyaj/cherry_lip_tint.jpg",
+      "stock": 40,
+      "category": "makyaj"
+    },
+    {
+      "id": 2,
+      "name": "Makyaj Ürünü 2",
+      "price": 99.99,
+      "image": "/images/makyaj/diamond_highlighter.jpg",
+      "stock": 30,
+      "category": "makyaj"
+    },
+    {
+      "id": 3,
+      "name": "Makyaj Ürünü 3",
+      "price": 99.99,
+      "image": "/images/makyaj/full_coverage_foundation.jpg",
+      "stock": 20,
+      "category": "makyaj"
+    },
+    {
+      "id": 4,
+      "name": "Makyaj Ürünü 4",
+      "price": 99.99,
+      "image": "/images/makyaj/glass_skin_foundation.jpg",
+      "stock": 25,
+      "category": "makyaj"
+    },
+    {
+      "id": 5,
+      "name": "Makyaj Ürünü 5",
+      "price": 99.99,
+      "image": "/images/makyaj/glossy_lip_oil.jpg",
+      "stock": 44,
+      "category": "makyaj"
+    },
+    {
+      "id": 6,
+      "name": "Makyaj Ürünü 6",
+      "price": 99.99,
+      "image": "/images/makyaj/golden_highlighter.jpg",
+      "stock": 30,
+      "category": "makyaj"
+    },
+    {
+      "id": 7,
+      "name": "Makyaj Ürünü 7",
+      "price": 99.99,
+      "image": "/images/makyaj/loose_powder.jpg",
+      "stock": 20,
+      "category": "makyaj"
+    },
+    {
+      "id": 8,
+      "name": "Makyaj Ürünü 8",
+      "price": 99.99,
+      "image": "/images/makyaj/luxury_lip_gloss.jpg",
+      "stock": 15,
+      "category": "makyaj"
+    },
+    {
+      "id": 9,
+      "name": "Makyaj Ürünü 9",
+      "price": 99.99,
+      "image": "/images/makyaj/makeup_primer_glow.jpg",
+      "stock": 21,
+      "category": "makyaj"
+    },
+    {
+      "id": 10,
+      "name": "Makyaj Ürünü 10",
+      "price": 99.99,
+      "image": "/images/makyaj/nude_lipstick.jpg",
+      "stock": 18,
+      "category": "makyaj"
+    },
+    {
+      "id": 11,
+      "name": "Makyaj Ürünü 11",
+      "price": 99.99,
+      "image": "/images/makyaj/peach_glow_blush.jpg",
+      "stock": 35,
+      "category": "makyaj"
+    },
+    {
+      "id": 12,
+      "name": "Makyaj Ürünü 12",
+      "price": 99.99,
+      "image": "/images/makyaj/precision_eyeliner.jpg",
+      "stock": 46,
+      "category": "makyaj"
+    },
+    {
+      "id": 13,
+      "name": "Makyaj Ürünü 13",
+      "price": 99.99,
+      "image": "/images/makyaj/rose_blush.jpg",
+      "stock": 28,
+      "category": "makyaj"
+    },
+    {
+      "id": 14,
+      "name": "Makyaj Ürünü 14",
+      "price": 99.99,
+      "image": "/images/makyaj/smokey_eyes_palette.jpg",
+      "stock": 15,
+      "category": "makyaj"
+    },
+    {
+      "id": 15,
+      "name": "Makyaj Ürünü 15",
+      "price": 99.99,
+      "image": "/images/makyaj/soft_glam_eyeshadow.jpg",
+      "stock": 22,
+      "category": "makyaj"
+    },
+    {
+      "id": 16,
+      "name": "Makyaj Ürünü 16",
+      "price": 99.99,
+      "image": "/images/makyaj/ultra_black_eyeliner.jpg",
+      "stock": 60,
+      "category": "makyaj"
+    },
+    {
+      "id": 17,
+      "name": "Makyaj Ürünü 17",
+      "price": 99.99,
+      "image": "/images/makyaj/velvet_rose_lipstick.jpg",
+      "stock": 26,
+      "category": "makyaj"
+    },
+    {
+      "id": 18,
+      "name": "Makyaj Ürünü 18",
+      "price": 99.99,
+      "image": "/images/makyaj/waterproof_mascara.jpg",
+      "stock": 35,
+      "category": "makyaj"
+    },
+    {
+      "id": 19,
+      "name": "Parfüm 1",
+      "price": 199.99,
+      "image": "/images/parfum/5801029026552943181_121.jpg",
+      "stock": 20,
+      "category": "parfum"
+    },
+    {
+      "id": 20,
+      "name": "Parfüm 2",
+      "price": 199.99,
+      "image": "/images/parfum/5801029026552943182_120.jpg",
+      "stock": 18,
+      "category": "parfum"
+    },
+    {
+      "id": 21,
+      "name": "Parfüm 3",
+      "price": 199.99,
+      "image": "/images/parfum/5801029026552943183_121.jpg",
+      "stock": 12,
+      "category": "parfum"
+    },
+    {
+      "id": 22,
+      "name": "Parfüm 4",
+      "price": 199.99,
+      "image": "/images/parfum/5801029026552943184_121.jpg",
+      "stock": 25,
+      "category": "parfum"
+    },
+    {
+      "id": 23,
+      "name": "Parfüm 5",
+      "price": 199.99,
+      "image": "/images/parfum/5801029026552943185_121.jpg",
+      "stock": 12,
+      "category": "parfum"
+    },
+    {
+      "id": 24,
+      "name": "Parfüm 6",
+      "price": 199.99,
+      "image": "/images/parfum/5801029026552943186_121.jpg",
+      "stock": 9,
+      "category": "parfum"
+    },
+    {
+      "id": 25,
+      "name": "Parfüm 7",
+      "price": 199.99,
+      "image": "/images/parfum/5801029026552943187_121.jpg",
+      "stock": 30,
+      "category": "parfum"
+    },
+    {
+      "id": 26,
+      "name": "Parfüm 8",
+      "price": 199.99,
+      "image": "/images/parfum/5801029026552943188_121.jpg",
+      "stock": 14,
+      "category": "parfum"
+    },
+    {
+      "id": 27,
+      "name": "Parfüm 9",
+      "price": 199.99,
+      "image": "/images/parfum/5801029026552943189_121.jpg",
+      "stock": 35,
+      "category": "parfum"
+    },
+    {
+      "id": 28,
+      "name": "Parfüm 10",
+      "price": 199.99,
+      "image": "/images/parfum/5801029026552943190_121.jpg",
+      "stock": 22,
+      "category": "parfum"
+    },
+    {
+      "id": 29,
+      "name": "Saç Ürünü 1",
+      "price": 89.99,
+      "image": "/images/sac/5801029026552943165_121.jpg",
+      "stock": 40,
+      "category": "sac"
+    },
+    {
+      "id": 30,
+      "name": "Saç Ürünü 2",
+      "price": 89.99,
+      "image": "/images/sac/5801029026552943167_121.jpg",
+      "stock": 30,
+      "category": "sac"
+    },
+    {
+      "id": 31,
+      "name": "Saç Ürünü 3",
+      "price": 89.99,
+      "image": "/images/sac/5801029026552943168_121.jpg",
+      "stock": 25,
+      "category": "sac"
+    },
+    {
+      "id": 32,
+      "name": "Saç Ürünü 4",
+      "price": 89.99,
+      "image": "/images/sac/5801029026552943170_121.jpg",
+      "stock": 35,
+      "category": "sac"
+    },
+    {
+      "id": 33,
+      "name": "Saç Ürünü 5",
+      "price": 89.99,
+      "image": "/images/sac/5801029026552943172_121.jpg",
+      "stock": 28,
+      "category": "sac"
+    },
+    {
+      "id": 34,
+      "name": "Saç Ürünü 6",
+      "price": 89.99,
+      "image": "/images/sac/5801029026552943175_121.jpg",
+      "stock": 20,
+      "category": "sac"
+    },
+    {
+      "id": 35,
+      "name": "Saç Ürünü 7",
+      "price": 89.99,
+      "image": "/images/sac/5801029026552943176_121.jpg",
+      "stock": 32,
+      "category": "sac"
+    },
+    {
+      "id": 36,
+      "name": "Saç Ürünü 8",
+      "price": 89.99,
+      "image": "/images/sac/5801029026552943177_121.jpg",
+      "stock": 18,
+      "category": "sac"
+    },
+    {
+      "id": 37,
+      "name": "Saç Ürünü 9",
+      "price": 89.99,
+      "image": "/images/sac/5801029026552943179_120.jpg",
+      "stock": 26,
+      "category": "sac"
+    },
+    {
+      "id": 38,
+      "name": "Saç Ürünü 10",
+      "price": 89.99,
+      "image": "/images/sac/5801029026552943180_121.jpg",
+      "stock": 40,
+      "category": "sac"
+    },
+    {
+      "id": 39,
+      "name": "Vücut Ürünü 1",
+      "price": 79.99,
+      "image": "/images/vucut/5801029026552943153_121.jpg",
+      "stock": 35,
+      "category": "vucut"
+    },
+    {
+      "id": 40,
+      "name": "Vücut Ürünü 2",
+      "price": 79.99,
+      "image": "/images/vucut/5801029026552943154_121.jpg",
+      "stock": 25,
+      "category": "vucut"
+    },
+    {
+      "id": 41,
+      "name": "Vücut Ürünü 3",
+      "price": 79.99,
+      "image": "/images/vucut/5801029026552943155_121.jpg",
+      "stock": 40,
+      "category": "vucut"
+    },
+    {
+      "id": 42,
+      "name": "Vücut Ürünü 4",
+      "price": 79.99,
+      "image": "/images/vucut/5801029026552943156_121.jpg",
+      "stock": 30,
+      "category": "vucut"
+    },
+    {
+      "id": 43,
+      "name": "Vücut Ürünü 5",
+      "price": 79.99,
+      "image": "/images/vucut/5801029026552943157_121.jpg",
+      "stock": 20,
+      "category": "vucut"
+    },
+    {
+      "id": 44,
+      "name": "Vücut Ürünü 6",
+      "price": 79.99,
+      "image": "/images/vucut/5801029026552943158_120.jpg",
+      "stock": 50,
+      "category": "vucut"
+    },
+    {
+      "id": 45,
+      "name": "Vücut Ürünü 7",
+      "price": 79.99,
+      "image": "/images/vucut/5801029026552943159_121.jpg",
+      "stock": 22,
+      "category": "vucut"
+    },
+    {
+      "id": 46,
+      "name": "Vücut Ürünü 8",
+      "price": 79.99,
+      "image": "/images/vucut/5801029026552943160_121.jpg",
+      "stock": 28,
+      "category": "vucut"
+    },
+    {
+      "id": 47,
+      "name": "Vücut Ürünü 9",
+      "price": 79.99,
+      "image": "/images/vucut/5801029026552943162_121.jpg",
+      "stock": 18,
+      "category": "vucut"
+    },
+    {
+      "id": 48,
+      "name": "Vücut Ürünü 10",
+      "price": 79.99,
+      "image": "/images/vucut/5801029026552943163_121.jpg",
+      "stock": 45,
+      "category": "vucut"
+    },
+    {
+      "id": 49,
+      "name": "Kolye 1",
+      "price": 149.99,
+      "image": "/images/taki/kolye/5801029026552943191_120.jpg",
+      "stock": 20,
+      "category": "taki",
+      "subcategory": "kolye"
+    },
+    {
+      "id": 50,
+      "name": "Kolye 2",
+      "price": 149.99,
+      "image": "/images/taki/kolye/5801029026552943192_121.jpg",
+      "stock": 10,
+      "category": "taki",
+      "subcategory": "kolye"
+    },
+    {
+      "id": 51,
+      "name": "Kolye 3",
+      "price": 149.99,
+      "image": "/images/taki/kolye/5801029026552943193_121.jpg",
+      "stock": 25,
+      "category": "taki",
+      "subcategory": "kolye"
+    },
+    {
+      "id": 52,
+      "name": "Kolye 4",
+      "price": 149.99,
+      "image": "/images/taki/kolye/5801029026552943194_121.jpg",
+      "stock": 18,
+      "category": "taki",
+      "subcategory": "kolye"
+    },
+    {
+      "id": 53,
+      "name": "Kolye 5",
+      "price": 149.99,
+      "image": "/images/taki/kolye/5801029026552943195_121.jpg",
+      "stock": 14,
+      "category": "taki",
+      "subcategory": "kolye"
+    },
+    {
+      "id": 54,
+      "name": "Kolye 6",
+      "price": 149.99,
+      "image": "/images/taki/kolye/5801029026552943196_121.jpg",
+      "stock": 22,
+      "category": "taki",
+      "subcategory": "kolye"
+    },
+    {
+      "id": 55,
+      "name": "Kolye 7",
+      "price": 149.99,
+      "image": "/images/taki/kolye/5801029026552943197_121.jpg",
+      "stock": 12,
+      "category": "taki",
+      "subcategory": "kolye"
+    },
+    {
+      "id": 56,
+      "name": "Kolye 8",
+      "price": 149.99,
+      "image": "/images/taki/kolye/5801029026552943198_121.jpg",
+      "stock": 30,
+      "category": "taki",
+      "subcategory": "kolye"
+    },
+    {
+      "id": 57,
+      "name": "Kolye 9",
+      "price": 149.99,
+      "image": "/images/taki/kolye/5801029026552943199_120.jpg",
+      "stock": 20,
+      "category": "taki",
+      "subcategory": "kolye"
+    },
+    {
+      "id": 58,
+      "name": "Kolye 10",
+      "price": 149.99,
+      "image": "/images/taki/kolye/5801029026552943201_121.jpg",
+      "stock": 16,
+      "category": "taki",
+      "subcategory": "kolye"
+    },
+    {
+      "id": 59,
+      "name": "Küpe 1",
+      "price": 89.99,
+      "image": "/images/taki/kupe/5801029026552943202_120.jpg",
+      "stock": 35,
+      "category": "taki",
+      "subcategory": "kupe"
+    },
+    {
+      "id": 60,
+      "name": "Küpe 2",
+      "price": 89.99,
+      "image": "/images/taki/kupe/5801029026552943203_120.jpg",
+      "stock": 28,
+      "category": "taki",
+      "subcategory": "kupe"
+    },
+    {
+      "id": 61,
+      "name": "Küpe 3",
+      "price": 89.99,
+      "image": "/images/taki/kupe/5801029026552943204_121.jpg",
+      "stock": 25,
+      "category": "taki",
+      "subcategory": "kupe"
+    },
+    {
+      "id": 62,
+      "name": "Küpe 4",
+      "price": 89.99,
+      "image": "/images/taki/kupe/5801029026552943205_120.jpg",
+      "stock": 30,
+      "category": "taki",
+      "subcategory": "kupe"
+    },
+    {
+      "id": 63,
+      "name": "Küpe 5",
+      "price": 89.99,
+      "image": "/images/taki/kupe/5801029026552943206_121.jpg",
+      "stock": 22,
+      "category": "taki",
+      "subcategory": "kupe"
+    },
+    {
+      "id": 64,
+      "name": "Küpe 6",
+      "price": 89.99,
+      "image": "/images/taki/kupe/5801029026552943207_121.jpg",
+      "stock": 18,
+      "category": "taki",
+      "subcategory": "kupe"
+    },
+    {
+      "id": 65,
+      "name": "Küpe 7",
+      "price": 89.99,
+      "image": "/images/taki/kupe/5801029026552943208_121.jpg",
+      "stock": 40,
+      "category": "taki",
+      "subcategory": "kupe"
+    },
+    {
+      "id": 66,
+      "name": "Küpe 8",
+      "price": 89.99,
+      "image": "/images/taki/kupe/5801029026552943209_121.jpg",
+      "stock": 20,
+      "category": "taki",
+      "subcategory": "kupe"
+    },
+    {
+      "id": 67,
+      "name": "Küpe 9",
+      "price": 89.99,
+      "image": "/images/taki/kupe/5801029026552943210_121.jpg",
+      "stock": 12,
+      "category": "taki",
+      "subcategory": "kupe"
+    },
+    {
+      "id": 68,
+      "name": "Küpe 10",
+      "price": 89.99,
+      "image": "/images/taki/kupe/5801029026552943211_121.jpg",
+      "stock": 16,
+      "category": "taki",
+      "subcategory": "kupe"
+    },
+    {
+      "id": 69,
+      "name": "Yüzük 1",
+      "price": 119.99,
+      "image": "/images/taki/yuzuk/5801029026552943212_121.jpg",
+      "stock": 30,
+      "category": "taki",
+      "subcategory": "yuzuk"
+    },
+    {
+      "id": 70,
+      "name": "Yüzük 2",
+      "price": 119.99,
+      "image": "/images/taki/yuzuk/5801029026552943213_121.jpg",
+      "stock": 8,
+      "category": "taki",
+      "subcategory": "yuzuk"
+    },
+    {
+      "id": 71,
+      "name": "Yüzük 3",
+      "price": 119.99,
+      "image": "/images/taki/yuzuk/5801029026552943214_121.jpg",
+      "stock": 22,
+      "category": "taki",
+      "subcategory": "yuzuk"
+    },
+    {
+      "id": 72,
+      "name": "Yüzük 4",
+      "price": 119.99,
+      "image": "/images/taki/yuzuk/5801029026552943215_120.jpg",
+      "stock": 25,
+      "category": "taki",
+      "subcategory": "yuzuk"
+    },
+    {
+      "id": 73,
+      "name": "Yüzük 5",
+      "price": 119.99,
+      "image": "/images/taki/yuzuk/5801029026552943216_120.jpg",
+      "stock": 20,
+      "category": "taki",
+      "subcategory": "yuzuk"
+    },
+    {
+      "id": 74,
+      "name": "Yüzük 6",
+      "price": 119.99,
+      "image": "/images/taki/yuzuk/5801029026552943217_121.jpg",
+      "stock": 15,
+      "category": "taki",
+      "subcategory": "yuzuk"
+    },
+    {
+      "id": 75,
+      "name": "Yüzük 7",
+      "price": 119.99,
+      "image": "/images/taki/yuzuk/5801029026552943218_121.jpg",
+      "stock": 12,
+      "category": "taki",
+      "subcategory": "yuzuk"
+    },
+    {
+      "id": 76,
+      "name": "Yüzük 8",
+      "price": 119.99,
+      "image": "/images/taki/yuzuk/5801029026552943219_120.jpg",
+      "stock": 10,
+      "category": "taki",
+      "subcategory": "yuzuk"
+    },
+    {
+      "id": 77,
+      "name": "Yüzük 9",
+      "price": 119.99,
+      "image": "/images/taki/yuzuk/5801029026552943220_120.jpg",
+      "stock": 18,
+      "category": "taki",
+      "subcategory": "yuzuk"
+    },
+    {
+      "id": 78,
+      "name": "Yüzük 10",
+      "price": 119.99,
+      "image": "/images/taki/yuzuk/5801029026552943221_120.jpg",
+      "stock": 28,
+      "category": "taki",
+      "subcategory": "yuzuk"
+    },
+    {
+      "id": 79,
+      "name": "Bileklik 1",
+      "price": 109.99,
+      "image": "/images/taki/bileklik/5801029026552943222_121.jpg",
+      "stock": 25,
+      "category": "taki",
+      "subcategory": "bileklik"
+    },
+    {
+      "id": 80,
+      "name": "Bileklik 2",
+      "price": 109.99,
+      "image": "/images/taki/bileklik/5801029026552943223_120.jpg",
+      "stock": 30,
+      "category": "taki",
+      "subcategory": "bileklik"
+    },
+    {
+      "id": 81,
+      "name": "Bileklik 3",
+      "price": 109.99,
+      "image": "/images/taki/bileklik/5801029026552943224_121.jpg",
+      "stock": 20,
+      "category": "taki",
+      "subcategory": "bileklik"
+    },
+    {
+      "id": 82,
+      "name": "Bileklik 4",
+      "price": 109.99,
+      "image": "/images/taki/bileklik/5801029026552943225_121.jpg",
+      "stock": 22,
+      "category": "taki",
+      "subcategory": "bileklik"
+    },
+    {
+      "id": 83,
+      "name": "Bileklik 5",
+      "price": 109.99,
+      "image": "/images/taki/bileklik/5801029026552943226_121.jpg",
+      "stock": 18,
+      "category": "taki",
+      "subcategory": "bileklik"
+    },
+    {
+      "id": 84,
+      "name": "Bileklik 6",
+      "price": 109.99,
+      "image": "/images/taki/bileklik/5801029026552943227_121.jpg",
+      "stock": 24,
+      "category": "taki",
+      "subcategory": "bileklik"
+    },
+    {
+      "id": 85,
+      "name": "Bileklik 7",
+      "price": 109.99,
+      "image": "/images/taki/bileklik/5801029026552943228_121.jpg",
+      "stock": 15,
+      "category": "taki",
+      "subcategory": "bileklik"
+    },
+    {
+      "id": 86,
+      "name": "Bileklik 8",
+      "price": 109.99,
+      "image": "/images/taki/bileklik/5801029026552943229_121.jpg",
+      "stock": 28,
+      "category": "taki",
+      "subcategory": "bileklik"
+    },
+    {
+      "id": 87,
+      "name": "Bileklik 9",
+      "price": 109.99,
+      "image": "/images/taki/bileklik/5801029026552943230_120.jpg",
+      "stock": 12,
+      "category": "taki",
+      "subcategory": "bileklik"
+    },
+    {
+      "id": 88,
+      "name": "Bileklik 10",
+      "price": 109.99,
+      "image": "/images/taki/bileklik/5801029026552943231_120.jpg",
+      "stock": 16,
+      "category": "taki",
+      "subcategory": "bileklik"
+    },
+    {
+      "id": 89,
+      "name": "Kol Saati 1",
+      "price": 349.99,
+      "image": "/images/taki/kol saati/5801029026552943242_121.jpg",
+      "stock": 15,
+      "category": "taki",
+      "subcategory": "saat"
+    },
+    {
+      "id": 90,
+      "name": "Kol Saati 2",
+      "price": 349.99,
+      "image": "/images/taki/kol saati/5801029026552943243_121.jpg",
+      "stock": 10,
+      "category": "taki",
+      "subcategory": "saat"
+    },
+    {
+      "id": 91,
+      "name": "Kol Saati 3",
+      "price": 349.99,
+      "image": "/images/taki/kol saati/5801029026552943244_121.jpg",
+      "stock": 8,
+      "category": "taki",
+      "subcategory": "saat"
+    },
+    {
+      "id": 92,
+      "name": "Kol Saati 4",
+      "price": 349.99,
+      "image": "/images/taki/kol saati/5801029026552943245_121.jpg",
+      "stock": 20,
+      "category": "taki",
+      "subcategory": "saat"
+    },
+    {
+      "id": 93,
+      "name": "Kol Saati 5",
+      "price": 349.99,
+      "image": "/images/taki/kol saati/5801029026552943246_121.jpg",
+      "stock": 12,
+      "category": "taki",
+      "subcategory": "saat"
+    },
+    {
+      "id": 94,
+      "name": "Kol Saati 6",
+      "price": 349.99,
+      "image": "/images/taki/kol saati/5801029026552943247_121.jpg",
+      "stock": 6,
+      "category": "taki",
+      "subcategory": "saat"
+    },
+    {
+      "id": 95,
+      "name": "Kol Saati 7",
+      "price": 349.99,
+      "image": "/images/taki/kol saati/5801029026552943248_120.jpg",
+      "stock": 14,
+      "category": "taki",
+      "subcategory": "saat"
+    },
+    {
+      "id": 96,
+      "name": "Kol Saati 8",
+      "price": 349.99,
+      "image": "/images/taki/kol saati/5801029026552943249_121.jpg",
+      "stock": 18,
+      "category": "taki",
+      "subcategory": "saat"
+    },
+    {
+      "id": 97,
+      "name": "Kol Saati 9",
+      "price": 349.99,
+      "image": "/images/taki/kol saati/5801029026552943250_121.jpg",
+      "stock": 16,
+      "category": "taki",
+      "subcategory": "saat"
+    },
+    {
+      "id": 98,
+      "name": "Kol Saati 10",
+      "price": 349.99,
+      "image": "/images/taki/kol saati/5801029026552943251_121.jpg",
+      "stock": 5,
+      "category": "taki",
+      "subcategory": "saat"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "product_id": 12,
+      "quantity": 4
+    },
+    {
+      "id": 2,
+      "product_id": 24,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "product_id": 23,
+      "quantity": 4
+    }
+  ],
+  "nextProductId": 101,
+  "nextCartId": 4
+}
