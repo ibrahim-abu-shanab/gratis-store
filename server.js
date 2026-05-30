@@ -96,6 +96,8 @@ app.use(express.json());
 // هاد بيخلي السيرفر يفهم البيانات اللي بتيجي بصيغة JSON في جسم الطلب (req.body)
 
 app.use(express.static(path.join(__dirname, "public")));
+app.use("/pages", express.static(path.join(__dirname, "public/pages")));
+
 app.use("/uploads", express.static(path.join(__dirname, "public/uploads")));
 app.use("/images",  express.static(path.join(__dirname, "public/images")));
 
