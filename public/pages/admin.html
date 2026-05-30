@@ -672,18 +672,20 @@
 
   <script>
 
-    // التحقق من وجود الـ admin key بالـ sessionStorage
-    if (!sessionStorage.getItem("adminKey")) {
-      window.location.href = "login.html";
-    }
+    if(localStorage.getItem("adminLogged") !== "true"){
+    location.href = "/admin-login.html";
+}
+    function logout(){
 
-    function logout() {
-      sessionStorage.removeItem("adminKey");
-      window.location.href = "login.html";
-    }
+    localStorage.removeItem("adminLogged");
 
-    // نقرأ الـ key من الـ session (جاء من السيرفر بعد اللوجين)
-    const ADMIN_KEY = sessionStorage.getItem("adminKey") || "";
+    window.location.href = "login.html";
+
+}
+    if(localStorage.getItem("adminLogged") !== "true"){
+    window.location.href = "login.html";
+}
+    const ADMIN_KEY = "1234";
     let allProducts = [];
     let changes = {};   // { id: {name, price, stock} }
     let currentCat = "";
@@ -725,7 +727,7 @@
         const res = await fetch("/api/products", {
           method: "POST",
           headers: {
-            admin: sessionStorage.getItem("adminKey") || ""
+            admin: "1234"
           },
           body: formData
         });

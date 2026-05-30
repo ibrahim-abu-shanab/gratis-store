@@ -1,82 +1,193 @@
 <!DOCTYPE html>
+
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GLAM Admin Login</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
-*{ margin:0; padding:0; box-sizing:border-box; font-family:'Montserrat',sans-serif; }
-body{ height:100vh; display:flex; justify-content:center; align-items:center; background:linear-gradient(135deg,#fff8fb,#f9eef2,#fde8ef); }
-.login-card{ width:400px; background:#fff; padding:40px; border-radius:24px; box-shadow:0 20px 60px rgba(0,0,0,.08); }
-.logo{ text-align:center; font-size:32px; font-weight:700; letter-spacing:4px; color:#c8637a; margin-bottom:10px; }
-.subtitle{ text-align:center; font-size:14px; color:#888; margin-bottom:30px; }
-.input-group{ margin-bottom:16px; }
-.input-group input{ width:100%; padding:14px 16px; border:1px solid #e6e6e6; border-radius:12px; font-size:14px; outline:none; transition:.25s; }
-.input-group input:focus{ border-color:#c8637a; }
-.login-btn{ width:100%; padding:14px; border:none; border-radius:12px; background:#c8637a; color:#fff; font-size:15px; font-weight:600; cursor:pointer; transition:.25s; }
-.login-btn:hover{ background:#b45369; }
-.login-btn:disabled{ background:#ccc; cursor:not-allowed; }
-.error{ margin-top:15px; text-align:center; color:#e74c3c; font-size:13px; }
-.footer{ margin-top:20px; text-align:center; font-size:12px; color:#999; }
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Montserrat',sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#fff8fb,#f9eef2,#fde8ef);
+}
+
+.login-card{
+
+width:400px;
+background:#fff;
+padding:40px;
+border-radius:24px;
+box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+}
+
+.logo{
+
+text-align:center;
+font-size:32px;
+font-weight:700;
+letter-spacing:4px;
+color:#c8637a;
+margin-bottom:10px;
+
+}
+
+.subtitle{
+
+text-align:center;
+font-size:14px;
+color:#888;
+margin-bottom:30px;
+
+}
+
+.input-group{
+
+margin-bottom:16px;
+
+}
+
+.input-group input{
+
+width:100%;
+padding:14px 16px;
+border:1px solid #e6e6e6;
+border-radius:12px;
+font-size:14px;
+outline:none;
+transition:.25s;
+
+}
+
+.input-group input:focus{
+
+border-color:#c8637a;
+
+}
+
+.login-btn{
+
+width:100%;
+padding:14px;
+border:none;
+border-radius:12px;
+background:#c8637a;
+color:#fff;
+font-size:15px;
+font-weight:600;
+cursor:pointer;
+transition:.25s;
+
+}
+
+.login-btn:hover{
+
+background:#b45369;
+
+}
+
+.error{
+
+margin-top:15px;
+text-align:center;
+color:#e74c3c;
+font-size:13px;
+
+}
+
+.footer{
+
+margin-top:20px;
+text-align:center;
+font-size:12px;
+color:#999;
+
+}
+
 </style>
+
 </head>
+
 <body>
+
 <div class="login-card">
-  <div class="logo">GLAM ADMIN</div>
-  <div class="subtitle">Yönetim Paneli Girişi</div>
-  <div class="input-group">
-    <input id="username" placeholder="Kullanıcı Adı" autocomplete="username">
-  </div>
-  <div class="input-group">
-    <input id="password" type="password" placeholder="Şifre" autocomplete="current-password">
-  </div>
-  <button class="login-btn" id="loginBtn" onclick="login()">Giriş Yap</button>
-  <div id="error" class="error"></div>
-  <div class="footer">Yetkili kullanıcı girişi</div>
+
+<div class="logo">
+GLAM ADMIN
+</div>
+
+<div class="subtitle">
+Yönetim Paneli Girişi
+</div>
+
+<div class="input-group">
+<input id="username" placeholder="Kullanıcı Adı">
+</div>
+
+<div class="input-group">
+<input id="password" type="password" placeholder="Şifre">
+</div>
+
+<button class="login-btn" onclick="login()">
+Giriş Yap
+</button>
+
+<div id="error" class="error"></div>
+
+<div class="footer">
+Yetkili kullanıcı girişi
+</div>
+
 </div>
 
 <script>
-async function login() {
-  const user = document.getElementById("username").value.trim();
-  const pass = document.getElementById("password").value;
-  const btn  = document.getElementById("loginBtn");
-  const err  = document.getElementById("error");
 
-  if (!user || !pass) {
-    err.textContent = "Kullanıcı adı ve şifre gerekli";
-    return;
-  }
+function login(){
 
-  btn.disabled    = true;
-  btn.textContent = "Giriş yapılıyor...";
-  err.textContent = "";
+const user =
+document.getElementById("username").value.trim();
 
-  try {
-    const res  = await fetch("/api/admin-login", {
-      method:  "POST",
-      headers: { "Content-Type": "application/json" },
-      body:    JSON.stringify({ username: user, password: pass }),
-    });
-    const data = await res.json();
+const pass =
+document.getElementById("password").value;
 
-    if (data.ok) {
-      // نحفظ الـ key اللي جاء من السيرفر
-      sessionStorage.setItem("adminKey", data.key);
-      window.location.href = "admin.html";
-    } else {
-      err.textContent = data.error || "Giriş başarısız";
-      btn.disabled    = false;
-      btn.textContent = "Giriş Yap";
-    }
-  } catch (e) {
-    err.textContent = "Sunucu hatası, tekrar deneyin";
-    btn.disabled    = false;
-    btn.textContent = "Giriş Yap";
-  }
+if(user === "ibrahim" && pass === "1952002"){
+
+localStorage.setItem("adminLogged","true");
+
+window.location.href = "admin.html";
+
+}else{
+
+document.getElementById("error").textContent =
+"Kullanıcı adı veya şifre hatalı";
+
 }
 
-document.addEventListener("keydown", e => { if (e.key === "Enter") login(); });
+}
+
+document.addEventListener("keydown",function(e){
+
+if(e.key === "Enter"){
+login();
+}
+
+});
+
 </script>
+
 </body>
 </html>

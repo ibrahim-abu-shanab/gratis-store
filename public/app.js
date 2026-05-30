@@ -302,7 +302,7 @@ function closeProductModal(){
 
   window.deleteProduct = function(id) {
     if (!confirm("Ürünü silmek istiyor musun?")) return;
-    fetch(`/api/products/${id}`, { method: "DELETE", headers: { admin: sessionStorage.getItem("adminKey") || "" } })
+    fetch(`/api/products/${id}`, { method: "DELETE", headers: { admin: "1234" } })
       .then(r => r.json())
       .then(() => { refreshCurrentPage(); showToast("🗑️ Ürün silindi"); })
       .catch(err => console.error(err));
